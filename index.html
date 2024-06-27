@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+        <div class="card p-4 shadow rounded-custom">
+          <h3 class="card-title text-center">Faça seu cadastro</h3>
+          <p class="text-center">Preencha o formulário com as informações requisitadas abaixo.</p>
+          <form>
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                </div>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="sr-only">Senha</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" id="password" placeholder="Senha" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="confirm-password" class="sr-only">Confirme a senha</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Digite a senha novamente" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-custom">Cadastrar</button>
+            <div class="text-center mt-3">
+              <a href="#">Já possui uma conta? Entrar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
